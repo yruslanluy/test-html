@@ -7,7 +7,7 @@ body {
   min-height: 100vh;
   background-color: #000000;
   font-family: 'Roboto', sans-serif;
-  overflow-x: hidden; /* Отключить горизонтальный скролл */
+  overflow-x: hidden;
 }
 
 .background {
@@ -56,13 +56,13 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-top: 200px; /* Добавим отступ сверху */
+  margin-top: 160px;
 }
 
 .score {
   color: #ffffff;
   font-size: 40px;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
   text-align: center;
 }
 
