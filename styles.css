@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: 'Roboto', sans-serif; /* Установим Roboto как основной шрифт */
+}
+
+.custom-button {
+  position: relative;
+  width: 355px;
+  height: 57px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 78px;
+  padding: 8px 9px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Roboto', sans-serif; /* Убедимся, что шрифт применяется к кнопке */
+}
+
+.button-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.text-emoji, .text-label {
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif; /* Применим шрифт Roboto */
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-emoji {
+  width: 49px;
+  height: 41px;
+  font-size: 24px;
+}
+
+.text-label {
+  width: 84px;
+  height: 24px;
+  font-size: 20px;
+}
