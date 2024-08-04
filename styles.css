@@ -5,53 +5,81 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f0f0;
-  font-family: 'Roboto', sans-serif; /* Установим Roboto как основной шрифт */
+  background-color: #000000;
+  font-family: 'Roboto', sans-serif;
 }
 
-.custom-button {
-  position: relative;
+.container {
+  width: 375px;
+  height: 811px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.emoji {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.username {
+  font-style: italic;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.score {
+  color: #ffffff;
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.button {
   width: 355px;
   height: 57px;
   display: flex;
-  justify-content: start;
   align-items: center;
-  gap: 78px;
-  padding: 8px 9px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  outline: none;
-  font-family: 'Roboto', sans-serif; /* Убедимся, что шрифт применяется к кнопке */
-}
-
-.button-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.text-emoji, .text-label {
-  position: relative;
-  z-index: 2;
-  color: #ffffff;
-  font-family: 'Roboto', sans-serif; /* Применим шрифт Roboto */
-  font-weight: 500;
-  text-align: center;
-  display: flex;
   justify-content: center;
-  align-items: center;
+  border: none;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
 }
 
-.text-emoji {
-  width: 49px;
-  height: 41px;
+.play-dice {
+  background: linear-gradient(90deg, #21701F 0%, #1C696E 100%);
+}
+
+.reward-details {
+  background: linear-gradient(90deg, #0E2F0D 0%, #0C2728 100%);
+}
+
+.button-emoji {
   font-size: 24px;
+  margin-right: 10px;
 }
 
-.text-label {
-  width: 84px;
-  height: 24px;
+.button-text {
   font-size: 20px;
 }
