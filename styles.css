@@ -10,8 +10,9 @@ body {
 }
 
 .container {
-  width: 375px;
-  height: 811px;
+  width: 90%;
+  max-width: 375px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,6 +44,8 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  flex-grow: 1;
+  justify-content: center;
 }
 
 .score {
@@ -53,7 +56,8 @@ body {
 }
 
 .button {
-  width: 355px;
+  width: 100%;
+  max-width: 355px;
   height: 57px;
   display: flex;
   align-items: center;
