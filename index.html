@@ -8,37 +8,22 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap">
 </head>
 <body>
-  <button class="custom-button">
-    <svg
-      class="button-bg"
-      width="355"
-      height="57"
-      viewBox="0 0 355 57"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <rect
-        width="355"
-        height="57"
-        rx="14"
-        fill="url(#paint0_linear_4_881)"
-      ></rect>
-      <defs>
-        <linearGradient
-          id="paint0_linear_4_881"
-          x1="0"
-          y1="28.5"
-          x2="355"
-          y2="28.5"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset="0" stop-color="#21701F"></stop>
-          <stop offset="1" stop-color="#1C696E"></stop>
-        </linearGradient>
-      </defs>
-    </svg>
-    <span class="text-emoji">🎲</span>
-    <span class="text-label">Play dice</span>
-  </button>
+  <div class="container">
+    <div class="header">
+      <span class="emoji">🎲</span>
+      <span class="username">luckid</span>
+    </div>
+    <div class="content">
+      <div class="score">7,520 🎲</div>
+      <button class="button play-dice">
+        <span class="button-emoji">🎲</span>
+        <span class="button-text">Play dice</span>
+      </button>
+      <button class="button reward-details">
+        <span class="button-emoji">🔍</span>
+        <span class="button-text">Reward details</span>
+      </button>
+    </div>
+  </div>
 </body>
 </html>
