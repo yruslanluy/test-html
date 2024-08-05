@@ -88,11 +88,11 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
-.play-dice {
+.light-button {
   background: linear-gradient(90deg, #21701F 0%, #1C696E 100%);
 }
 
-.reward-details-button {
+.dark-button {
   background: linear-gradient(90deg, #0E2F0D 0%, #0C2728 100%);
 }
 
